@@ -87,7 +87,7 @@ p div {
     min-width: 40vw;
     max-width: 40vw;
     min-height: 70vh;
-    background-color: rgba(240, 98, 32, 0.486);
+    background-color: rgba(233, 32, 240, 0.486);
     border-radius: 10px;
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
