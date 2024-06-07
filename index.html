@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dragable Box - Gagan Suman</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet"/>
+</head>
+<body>
+   <div class="container">
+    <div class="input">
+        <h1>Cat Todo</h1>
+        <p contenteditable="true" id="text-box" data-placeholder="type here"></p>
+        <button id="btn">Add To List</button>
+    </div>
+    <div class="main">
+        <div id="left">
+            <h2>Pending🎨</h2>
+            <div draggable="true" class="task">Hello World <span class="dlt"><i class="ri-delete-bin-2-fill"></i></span></div>
+        </div>
+        <div id="right">
+            <h2>Done <span>✔</span></h2>
+            <div draggable="true" class="task">Hello World</div>
+        </div>
+    </div>
+   </div>
+
+   <div class="toast">
+        <div class="error" id="error-toast"><i class="ri-thumb-up-fill"></i><h2>Error</h2></div>
+        <div class="success" id="success-toast"><i class="ri-error-warning-line"></i><h2>Success</h2></div>
+   </div>
+
+   <script src="main.js"></script>
+</body>
+</html>
